@@ -1,0 +1,13 @@
+name: owl-cms
+version: 0.1.0
+
+authors:
+  - Mauricio de Abreu Antunes <mauricio.abreua@gmail.com>
+
+targets:
+  owl-cms:
+    main: src/owl-cms.cr
+
+crystal: 0.23.0
+
+license: MIT
