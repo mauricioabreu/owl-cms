@@ -1,22 +1,10 @@
-# owl-cms
+# Owl CMS
 
-TODO: Write a description here
-
-## Installation
-
-TODO: Write installation instructions here
-
-## Usage
-
-TODO: Write usage instructions here
-
-## Development
-
-TODO: Write development instructions here
+Simple CMS written in Crystal lang
 
 ## Contributing
 
-1. Fork it ( https://github.com/[your-github-name]/owl-cms/fork )
+1. Fork it ( https://github.com/mauricioabreu/owl-cms/fork )
 2. Create your feature branch (git checkout -b my-new-feature)
 3. Commit your changes (git commit -am 'Add some feature')
 4. Push to the branch (git push origin my-new-feature)
@@ -24,4 +12,5 @@ TODO: Write development instructions here
 
 ## Contributors
 
-- [[your-github-name]](https://github.com/[your-github-name]) Mauricio de Abreu Antunes - creator, maintainer
+- [mauricioabreu](https://github.com/mauricioabreu) Mauricio de Abreu Antunes - creator, maintainer
+- [rzanluchi](https://github.com/rzanluchi) Raphael Zanluchi - creator, maintainer
