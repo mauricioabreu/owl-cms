@@ -11,6 +11,12 @@ describe Owl::PostHandler do
       post.content.should eq("bar")
     end
 
+    it "saves a new Post model with tags" do
+      post = post_handler.add_post("foo", "bar", ["programming", "tech"])
+      post.tags[0].should eq("programming")
+      post.tags[1].should eq("tech")
+    end
+
     it "retrieves a Post" do
       # Add a new post so we can retrieve it
       post = post_handler.add_post("foo", "bar")
@@ -18,6 +24,18 @@ describe Owl::PostHandler do
       post = post_handler.get_post(post.id)
       post.title.should eq("foo")
       post.content.should eq("bar")
+    end
+
+    it "retrieves a Post with its tags" do
+      post_handler.clear
+      # Add a new post so we can retrieve it
+      post = post_handler.add_post("foo", "bar", ["programming", "tech"])
+      # And then we retrieve it
+      post = post_handler.get_post(post.id)
+      post.title.should eq("foo")
+      post.content.should eq("bar")
+      post.tags[0].should eq("programming")
+      post.tags[1].should eq("tech")
     end
 
     it "retrieves all Posts" do
