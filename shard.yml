@@ -8,6 +8,6 @@ targets:
   owl-cms:
     main: src/owl-cms.cr
 
-crystal: 0.23.0
+crystal: 0.23.1
 
 license: MIT
