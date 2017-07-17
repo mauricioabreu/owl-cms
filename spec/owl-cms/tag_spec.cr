@@ -28,7 +28,7 @@ describe Owl::TagHandler do
       tags.size.should eq(2)
     end
 
-    it "deletes a Post" do
+    it "deletes a Tag" do
       tag = tag_handler.add_tag("Owl CMS")
       tag_handler.delete_tag(tag.id).should eq(true)
     end
